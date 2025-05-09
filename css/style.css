@@ -1,15 +1,15 @@
 /*Colours used for each book*/
 #Alice{
-    background-color:#E6DFF1;
+    background-color:#d6c6ef;
 }
 #HDM{
-    background-color: #CFE9FC;
+    background-color: #bedef4;
 }
 #Garden{
-    background-color: #F8C8DC;
+    background-color: #fab1cf;
 }
 #Narnia{
-    background-color: #DFF8E7;
+    background-color: #c1f7d2;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
     box-shadow: 0 2px 10px rgba(82, 55, 40, 0.1);
     position: sticky;
     top:0;
-    z-index: 1;
+    z-index: 10;
 }
 
 /*Nav Bar*/
@@ -39,6 +39,7 @@ body {
     width:100%;
     margin-right: auto;
     flex-grow:1;
+
 }
 #logo {
     width: auto;
@@ -184,7 +185,8 @@ body {
 .home-explore{
     background-color:#ddb679;
     color:white;
-    padding:5px 15px;
+    padding:10px 20px;
+    font-family: 'Roboto',sans-serif;
     border-radius: 25px;
     text-decoration: none;
     font-weight: bold;
@@ -192,8 +194,12 @@ body {
     cursor: pointer;
     z-index: 1;
 }
+.home-explore:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
 .intro-container{
-    background-color: #d3c9ae;
+    background-color: #f4e8c9;
     color:#523728;
     text-align:center;
     padding: 3rem 1rem;
@@ -212,9 +218,12 @@ body {
     text-decoration: none;
     font-weight: bold;
     transition: background 0.3s ease;
+    font-family: 'Roboto',sans-serif;
 }
 .intro-container a:hover {
     background-color: #cba366;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 .feature-container{
     position: relative;
@@ -223,6 +232,7 @@ body {
     font-family: 'Playfair Display',serif;
     color: #523728;
     overflow:hidden;
+    text-align: center;
 }
 .feature-container::before{
     content:'';
@@ -254,6 +264,9 @@ body {
 }
 .feature-container li{
     margin: 1rem 0;
+}
+.final-section{
+    background-color: #f4e8c9;
 }
 
 /*Login And Register Pages*/
@@ -460,6 +473,20 @@ body {
     max-width: 250px;
     border: dashed #523728;
 }
+.clear-filter{
+    border-radius: 10px;
+    padding:5px;
+    margin:5px;
+    font-weight: bold;
+    box-shadow: #040404;
+    width:80%;
+    border: #858484 2px;
+    border-style: solid;
+}
+.clear-filter:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
 .filter-list button{
     border-radius: 10px;
     padding:5px;
@@ -470,7 +497,7 @@ body {
     width:80%;
 }
 .filter-list button:hover{
-    transform: scale(1.03);
+    transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
 
@@ -501,13 +528,15 @@ body {
     font-weight: bold;
     color:white;
     padding: 5px;
-    position:absolute;
     top: 20px;
     left:20px;
     text-decoration: none;
     padding: 5px 10px;
     cursor: pointer;
     box-shadow:0 0 5px rgb(0,0,.25s);
+}
+.location-header .return{
+    position:absolute;
 }
 .return:hover{
     transform: scale(1.03);
@@ -562,10 +591,11 @@ body {
     font-size: 30px;
     color:#ddb679;
     z-index: 1;
-    position: absolute;
     bottom:0;
     right: 150px;
-
+}
+.location-header #rating{
+    position: absolute;
 }
 .location-details{
     display:flex;
@@ -578,6 +608,8 @@ body {
 .location-details-right{
     width:30%;
     padding:40px;
+    display: flex;
+    flex-direction: column;
 }
 #map-container {
     width: 100%;
@@ -590,8 +622,92 @@ body {
     height: 100%;
     border: 0;
 }
+.website-btn{
+    text-decoration: none;
+    color:white;
+    background-color: #523728;
+    padding:10px;
+    border-radius: 5px;
+}
+.website-btn:hover{
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+
+}
 .review-container{
+    display:grid;
+    grid-gap: 20px;
     background-color: #f4e8c9;
     border-color: #523728;
     min-height: 100px;
+    padding:30px;
+
 }
+.review-card{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+/*Book Trails*/
+.trails-container{
+    padding: 2rem;
+    margin: 0 auto;
+}
+#trail-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trail-header .return{
+    color:#523728;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#trail-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 420px; /* Enough for card + curve */
+    align-items: start;
+    gap: 4rem;
+}
+.trail-step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.trail-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.trail-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+}
+
+.trail-card img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.trail-card h3 {
+margin-top: 0.5rem;
+font-size: 1.2rem;
+color: #523728;
+text-decoration: none;
+}
+.trail-curve {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+.trail-curve.flip {
+    transform: scaleX(-1);
+}
+

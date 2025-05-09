@@ -11,7 +11,7 @@ const locations = [
         "Book_Link": "In Philip Pullman's 'His Dark Materials,' Godstow Abbey is where the nuns cared for Lyra as a baby, highlighting its significance in her early life.",
         "Opening_Hours": "24/7",
         "Price": "Free",
-        "Extra_Info": "Parking available at Port Meadow",
+        "Extra_Info": "<ul><li>Parking available at Port Meadow</li></ul>",
         "Address":"Godstow Rd, Oxford OX2 8PJ",
         "Average_Rating":"★★★★☆"
     },
@@ -24,8 +24,8 @@ const locations = [
         "Description": "Trout Inn is a historic riverside pub located on the banks of the River Thames in Oxford. Known for its picturesque views and traditional British cuisine, it has been a popular spot for locals and visitors alike.",
         "Website": "https://www.thetroutoxford.co.uk/#/",
         "Image": "https://live.staticflickr.com/2742/4517613329_9e212ef01b_b.jpg",
-        "Book_Link": "The Trout Inn is featured in 'His Dark Materials' as a place frequented by characters, adding a real-world connection to the narrative.",
-        "Opening_Hours": "Mon–Sat: 12:00–22:00, Sun: 12:00–21:30",
+        "Book_Link": "The Trout Inn is featured in 'His Dark Materials' as a place frequented by characters. It was an old, stone inn outside Oxford in Lyra's world located on the River Thames.",
+        "Opening_Hours": "Mon–Sat: 12:00–23:00, Sun: 12:00–21:30",
         "Price": "££",
         "Extra_Info": null,
         "Address":"",
@@ -43,7 +43,7 @@ const locations = [
         "Book_Link": "In 'His Dark Materials,' Port Meadow is depicted as a significant location where key events unfold, reflecting its real-world prominence in Oxford.",
         "Opening_Hours": "24/7",
         "Price": "Free",
-        "Extra_Info": "",
+        "Extra_Info": null,
         "Address":"",
         "Average Rating":"★★★★★"
     },
@@ -59,9 +59,9 @@ const locations = [
         "Book_Link": "A location Lyra visits in *The Subtle Knife*. Features props and costumes from the 'His Dark Materials' series, including the amber spyglass.",
         "Opening_Hours": "Tue–Sun: 10:00–17:00",
         "Price": "Free",
-        "Extra_Info": "",
+        "Extra_Info": null,
         "Address":"",
-        "Average Rating":""
+        "Average Rating":"★★★★☆"
     },
     {
         "Location_ID": 5,
@@ -75,9 +75,9 @@ const locations = [
         "Book_Link": "In 'His Dark Materials,' the Bodleian Library is portrayed as 'Bodley's Library,' where crucial information is sought, emphasizing its role as a center of knowledge.",
         "Opening_Hours": "Mon–Fri: 10:00–17:00, Sat: 10:00–17:00",
         "Price": "££",
-        "Extra_Info": "",
+        "Extra_Info": null,
         "Address":"",
-        "Average Rating":""
+        "Average Rating":"★★★☆☆"
     },
     {
         "Location_ID": 6,
@@ -91,9 +91,9 @@ const locations = [
         "Book_Link": "Exeter College's rich history and architectural beauty contribute to the atmospheric setting reminiscent of scholarly pursuits depicted in 'His Dark Materials.'",
         "Opening_Hours": "Mon–Fri: 14:00–17:00, Sat–Sun: 13:00–17:00",
         "Price": "£",
-        "Extra_Info": "",
+        "Extra_Info": null,
         "Address":"",
-        "Average Rating":""
+        "Average Rating":"★★★★☆"
     },
     {
         "Location_ID": 7,
@@ -107,9 +107,9 @@ const locations = [
         "Book_Link": "The Covered Market was a market in Oxford in Lyra's world and sold fish. When Jessie Reynolds went missing, the market was searched.",
         "Opening_Hours": "Mon–Sat: 08:00–17:30, Sun: 10:00–16:00",
         "Price": "£",
-        "Extra_Info": "",
+        "Extra_Info":null,
         "Address":"",
-        "Average Rating":""
+        "Average Rating":"★★★☆☆"
     },
     {
         "Location_ID": 8,
@@ -117,79 +117,79 @@ const locations = [
         "Location_Type": "Activity",
         "Book": "His Dark Materials",
         "Trail_Number": null,
-        "Description": "",
+        "Description": "hi",
         "Website": "https://www.obga.ox.ac.uk/",
         "Image": "https://www.experienceoxfordshire.org/wp-content/uploads/2017/06/132773933_5538028679556730_1384057612094066097_n.jpg",
         "Book_Link": "Features the bench where characters Will and Lyra meet; includes a sculpture depicting daemons from the series",
         "Opening_Hours": "10:00–17:00",
         "Price": "££",
-        "Extra_Info": "",
+        "Extra_Info":null,
         "Address":"",
-        "Average Rating":""
+        "Average Rating":"★★★★☆"
     },
     {
-    "Location_ID":"9",
+    "Location_ID":9,
     "Location_Name":"Christ Church College",
     "Location_Type":"Landmark",
     "Book":"Alice in Wonderland",
     "Trail_Number": 2,
-    "Description":"",
-    "Website":"",
+    "Description":"One of Oxford's most iconic and grandest colleges, Christ Church is known for its stunning architecture and spacious quads. It has inspired countless visitors with its historic halls, breathtaking gardens and links to famous alumni. <br>You can enjoy the views of the exterior buildings and surrounding meadows for free however to explore inside, you need to book a guided tour through the college. There are various tours offered along with a wide range of events throughout the year.",
+    "Website":"https://www.chch.ox.ac.uk/visit",
     "Image":"https://www.chch.ox.ac.uk/sites/default/files/styles/highlight_text_with_image_mobile/public/2023-08/tom-quad-highlight.jpg.webp?itok=10NJrXAa",
     "Book_Link":"This was the home of Alice Liddell, who was the inspiration for Alice. The dining hall here is thought to have inspired the Mad Hatter's Tea Party setting.",
-    "Opening_Hours":"",
-    "Price":"",
-    "Extra_Info":"",
-    "Address":"",
-    "Average Rating":""
-},
+    "Opening_Hours":"10:00am - 4:15pm",
+    "Price":"£",
+    "Extra_Info":"<ul><li>Disabled Parking Available</li><li>Tours available in 13 different languages</li></ul>",
+    "Address":"Christ Church, St Aldates, Oxford, OX1 1DP",
+    "Average Rating":"★★★★★"
+    },
     {
-        "Location_ID":"10",
+        "Location_ID":10,
         "Location_Name":"Alice's Shop",
         "Location_Type":"Activity",
         "Book":"Alice in Wonderland",
         "Trail_Number": 3,
-        "Description":"",
-        "Website":"",
+        "Description":"Alice's shop is a charming store located opposite Christ Church College. It inspired the 'old sheep shop' which was featured in Through the Looking-Glass. Offering a wide range of whimsical Alice in Wonderland themed gifts, souvenirs and collectibles, you wouldn't want to miss out on this cosy boutique. ",
+        "Website":"https://aliceinwonderlandshop.com/",
         "Image":"https://www.silverscreen.tours/wp-content/uploads/2020/06/alices-shop-oxford-6972.jpg",
-        "Book_Link":"This was a sweet shop that Alice Liddell, the inspiration for Alice, visited frequently. It became the inspiration for the Old Sheep Shop in Through the Looking Glass and is now a themed gift shop.",
-        "Opening_Hours":"",
-        "Price":"",
-        "Extra_Info":"",
-        "Address":"",
-        "Average Rating":""
+        "Book_Link":"This was a sweet shop that Alice Liddell, the inspiration for Alice, visited frequently. It became the inspiration for the Old Sheep Shop in Through the Looking Glass and is now a themed gift shop. The little shop also appeared in an illustration in Through the Looking-Glass.",
+        "Opening_Hours":"10:00am - 18:00pm",
+        "Price":"££",
+        "Extra_Info":"<ul><li>Phone Number: 07500864135</li></ul>",
+        "Address":"83 St Aldates, Oxford OX1 1RA",
+        "Average Rating":"★★★★☆"
     },
     {
-        "Location_ID":"11",
+        "Location_ID":11,
         "Location_Name":"University Park- River Walk",
         "Location_Type":"Park",
         "Book":"Alice in Wonderland",
         "Trail_Number": 1,
-        "Description":"",
+        "Description":"hi",
         "Website":"",
         "Image":"https://www.experienceoxfordshire.org/wp-content/uploads/2017/03/University-Parks-.jpg",
         "Book_Link":"This was the home of Alice Liddell, who was the inspiration for Alice. The dining hall here is thought to have inspired the Mad Hatter's Tea Party setting.",
         "Opening_Hours":"",
         "Price":"",
-        "Extra_Info":"",
+        "Extra_Info":null,
         "Address":"",
-        "Average Rating":""
-        },
+        "Average Rating":"★★★★★"
+    },
     {
-        "Location_ID":"12",
+        "Location_ID":12,
         "Location_Name":"St Mary's Passage",
         "Location_Type":"Landmark",
         "Book":"The Chronicles of Narnia",
         "Trail_Number": 1,
-        "Description":"",
+        "Description":"hi",
         "Website":"",
         "Image":"https://i0.wp.com/flyingscotsgirl.com/wp-content/uploads/2020/08/img_4641.jpg?resize=748%2C913&ssl=1",
         "Book_Link":"Narnia door and lamp post that inpsired the scene with Mr Tumnus.",
         "Opening_Hours":"24/7",
         "Price":"Free",
-        "Extra_Info":"",
+        "Extra_Info":null,
         "Address":"",
-        "Average Rating":""
+        "Average Rating":"★★★☆☆"
     },
     {
         "Location_ID":13,
@@ -203,9 +203,9 @@ const locations = [
         "Book_Link":"Blenheim Palace was a filming location for the 2020 and 1993 versions of The Secret Garden movie.\nIn the 2020 version, the formal gardens appear including the rose gardens and water terraces. In the 1993 version, the palace and its grounds appear in several scenes.",
         "Opening_Hours":"10:00am - 16:30pm",
         "Price":"£££",
-        "Extra_Info":"",
+        "Extra_Info":null,
         "Address":"Woodstock, OX20 1PS",
-        "Average_Rating":""
+        "Average_Rating":"★★★☆☆"
     },
     {
         "Location_ID":14,
@@ -220,23 +220,7 @@ const locations = [
         "Opening_Hours":"Restaurant and Bar: 12-9pm <br> Alice in Wonderland Menu: 12-4pm",
         "Price":"££",
         "Extra_Info":"<ul><li>Booking Required</li><li>Vegan Menu</li><li>Gluten-Free Menu</li></ul>",
-        "Address":"The Rabdolph Hotel, Beaumont Street, Oxford, OX1 2LN",
+        "Address":"The Randolph Hotel, Beaumont Street, Oxford, OX1 2LN",
         "Average_Rating":"★★★★★"
-    },
-    {
-        "Location_ID":"",
-        "Location_Name":"",
-        "Location_Type":"",
-        "Book":"",
-        "Trail_Number": "",
-        "Description":"",
-        "Website":"",
-        "Image":"",
-        "Book_Link":"",
-        "Opening_Hours":"",
-        "Price":"",
-        "Extra_Info":"",
-        "Address":"",
-        "Average_Rating":""
     }
 ]
